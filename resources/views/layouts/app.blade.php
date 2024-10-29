@@ -18,6 +18,7 @@
       </head>
     <body class="font-poppins antialiased bg-black">
         <div class="bg-gray-100 dark:bg-gray-900">
+            
             @include('layouts.navigation')
 
             <!-- Page Heading -->

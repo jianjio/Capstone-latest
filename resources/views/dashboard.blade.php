@@ -7,6 +7,7 @@
       <p class="text-2xl tracking-wide text-blue-500 uppercase mb-8">
         Discover the Best Free-To-Play Games with Ease!
       </p>
+
        <!-- START BUTTON  -->
 
      <a
@@ -99,11 +100,14 @@
         </div>
   
           <!-- Game Cards -->
+          <h2 class="text-4xl font-bold text-center uppercase my-8">
+            latest News
+          </h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <!-- Valorant Card -->
             <div class="card bg-custom-red rounded-lg overflow-hidden">
               <img
-                src="{{asset('valorant.jpg')}}"
+                src="{{asset('valorant news.webp')}}"
                 alt="valorant image"
                 class="w-full border-b border-[#d1bdc6]"
               />
@@ -111,29 +115,19 @@
                 <h3 class="text-2xl text-white font-semibold text-center uppercase mb-4">
                   Valorant
                 </h3>
+                <p class="mb-4 font-semibold text-xl">Game Changers Championship: Format Explainer</p>
                 <p class="mb-4">
-                  Test your mettle in Riot Games' character-based FPS shooter
-                  Valorant.
+                  
+Before you settle in to see 2024 Game Changers Champions crowned, get a breakdown of the rules, format, and tournament structure.
                 </p>
-                <a
-                  href="https://playvalorant.com/en-sg/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-block bg-red-600 text-white px-4 py-2 rounded mb-4 hover:bg-red-700 transition duration-300"
-                  >Download</a
-                >
-                <ul class="space-y-2">
-                  <li><strong>Genre:</strong> Shooter</li>
-                  <li><strong>Platform:</strong> PC (WINDOWS)</li>
-                  <li><strong>Release Date:</strong> 2020-06-02</li>
-                </ul>
+               
                 <div class="mt-4">
                   <a
-                    href="https://www.freetogame.com/valorant"
+                    href="https://www.youtube.com/watch?v=iqCZ2EudfC0"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="inline-block bg-red-600 text-white px-4 py-2 rounded text-sm hover:bg-red-700 transition duration-300"
-                    >View Profile</a
+                    >View Link</a
                   >
                 </div>
               </div>
@@ -143,37 +137,27 @@
   
             <div class="card bg-custom-red rounded-lg overflow-hidden">
               <img
-                src="{{asset('lol.webp')}}"
+                src="{{asset('lolnews.webp')}}"
                 alt="LoL image"
                 class="w-full border-b border-[#d1bdc6]"
               />
               <div class="p-6">
                 <h3 class="text-2xl text-white font-semibold text-center uppercase mb-4">
-                  League of Legends
+                  Valorant
                 </h3>
+                <p class="mb-4 font-semibold text-xl">Blood Sweat & Tears</p>
                 <p class="mb-4">
-                  A free-to-play MOBA game, and one of the most played pc game in
-                  the world.
+                  
+Wounded and near death, Ambessa sees a vision of what awaits her as a follower of that wolf.
                 </p>
-                <a
-                  href="https://www.leagueoflegends.com/en-ph/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-block bg-red-600 text-white px-4 py-2 rounded mb-4 hover:bg-red-700 transition duration-300"
-                  >Download</a
-                >
-                <ul class="space-y-2">
-                  <li><strong>Genre:</strong> MOBA</li>
-                  <li><strong>Platform:</strong> PC (WINDOWS)</li>
-                  <li><strong>Release Date:</strong> 2009-10-27</li>
-                </ul>
+               
                 <div class="mt-4">
                   <a
-                    href="https://www.freetogame.com/league-of-legends"
+                    href="https://www.youtube.com/watch?v=iqCZ2EudfC0"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="inline-block bg-red-600 text-white px-4 py-2 rounded text-sm hover:bg-red-700 transition duration-300"
-                    >View Profile</a
+                    >View Link</a
                   >
                 </div>
               </div>
@@ -181,37 +165,26 @@
             <!-- Dota 2 Card -->
             <div class="card bg-custom-red rounded-lg overflow-hidden">
               <img
-                src="{{asset('dota.jpg')}}"
+                src="{{asset('dotanews.jpg')}}"
                 alt="dota image"
                 class="w-full border-b border-[#d1bdc6]"
               />
               <div class="p-6">
                 <h3 class="text-2xl text-white font-semibold text-center uppercase mb-4">
-                  Dota 2
+                  Valorant
                 </h3>
+                <p class="mb-4 font-semibold text-xl">The International Grand Champions</p>
                 <p class="mb-4">
-                  A free-to-play MOBA game, and one of the most played pc game in
-                  the world.
+                  Congratulations to Team Liquid, Grand Champions at The International 2024. Dropping only three games throughout their championship run, this relentless Liquid squad washed away a field of fearsome contenders to resoundingly earn their place as the finest Dota team in the world.
                 </p>
-                <a
-                  href="https://www.dota2.com/home"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-block bg-red-600 text-white px-4 py-2 rounded mb-4 hover:bg-red-700 transition duration-300"
-                  >Download</a
-                >
-                <ul class="space-y-2">
-                  <li><strong>Genre:</strong> MOBA</li>
-                  <li><strong>Platform:</strong> PC (WINDOWS)</li>
-                  <li><strong>Release Date:</strong> 2013-07-09</li>
-                </ul>
+               
                 <div class="mt-4">
                   <a
-                    href="https://www.freetogame.com/dota-2"
+                    href="https://www.dota2.com/newsentry/4692277172977135795"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="inline-block bg-red-600 text-white px-4 py-2 rounded text-sm hover:bg-red-700 transition duration-300"
-                    >View Profile</a
+                    >View Link</a
                   >
                 </div>
               </div>

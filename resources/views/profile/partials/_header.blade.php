@@ -15,6 +15,7 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
+  <link rel="icon" href="{{ asset('logo-footer.png') }}" type="image/x-icon">
   </head>
 
   <body class="bg-black font-['poppins']">

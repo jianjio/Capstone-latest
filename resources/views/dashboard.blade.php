@@ -1,10 +1,10 @@
 <x-app-layout>
-  <body class="bg-black">
+  
      <!-- Hero Section -->
   <section class="hero text-center content-center">
     <div class="container mx-auto px-4">
-      <h1 class="text-9xl tracking-widest uppercase font-protest text-[#D1BDC6] mb-4">GAMEDEV</h1>
-      <p class="text-2xl tracking-wide text-blue-500 uppercase mb-8">
+      <h1 class="md:text-9xl text-8xl tracking-widest uppercase font-protest text-[#D1BDC6] mb-4">GAMEDEV</h1>
+      <p class="md:text-2xl text-xl tracking-wide text-blue-500 uppercase mb-8">
         Discover the Best Free-To-Play Games with Ease!
       </p>
 
@@ -13,11 +13,11 @@
      <a
      href="#populargames"
      class="arrow bg-black fill-white text-white px-8 py-3 rounded-full uppercase font-medium hover:bg-inherit transition duration-300"
-     >popular games</i></a
+     >Let's start</i></a
    >
    </section>
    <!-- Popular Games Section -->
-   <section class="py-20 bg-black" id="populargames">
+   <section class="py-20" id="populargames">
      <div class="container mx-auto px-4">
        <h2 class="text-4xl font-bold text-center uppercase mb-4">
          most popular games
@@ -99,12 +99,12 @@
             </button>
         </div>
   
-          <!-- Game Cards -->
+          <!-- UPDATE CARDS -->
           <h2 class="text-4xl font-bold text-center uppercase my-8">
-            latest News
+            latest UPDATES
           </h2>
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <!-- Valorant Card -->
+            <!-- Valorant UPDATE -->
             <div class="card bg-custom-red rounded-lg overflow-hidden">
               <img
                 src="{{asset('valorant news.webp')}}"
@@ -133,7 +133,7 @@ Before you settle in to see 2024 Game Changers Champions crowned, get a breakdow
               </div>
             </div>
   
-            <!-- League of Legends Card -->
+            <!-- League of Legends UPDATE Card -->
   
             <div class="card bg-custom-red rounded-lg overflow-hidden">
               <img
@@ -143,7 +143,7 @@ Before you settle in to see 2024 Game Changers Champions crowned, get a breakdow
               />
               <div class="p-6">
                 <h3 class="text-2xl text-white font-semibold text-center uppercase mb-4">
-                  Valorant
+                  League of Legends
                 </h3>
                 <p class="mb-4 font-semibold text-xl">Blood Sweat & Tears</p>
                 <p class="mb-4">
@@ -162,7 +162,7 @@ Wounded and near death, Ambessa sees a vision of what awaits her as a follower o
                 </div>
               </div>
             </div>
-            <!-- Dota 2 Card -->
+            <!-- Dota 2 UPDATE Card -->
             <div class="card bg-custom-red rounded-lg overflow-hidden">
               <img
                 src="{{asset('dotanews.jpg')}}"
@@ -171,7 +171,7 @@ Wounded and near death, Ambessa sees a vision of what awaits her as a follower o
               />
               <div class="p-6">
                 <h3 class="text-2xl text-white font-semibold text-center uppercase mb-4">
-                  Valorant
+                  Dota 2
                 </h3>
                 <p class="mb-4 font-semibold text-xl">The International Grand Champions</p>
                 <p class="mb-4">
@@ -252,9 +252,6 @@ Wounded and near death, Ambessa sees a vision of what awaits her as a follower o
         </div>
       </div>
     </section>
-
-     
-</body>
       @include('profile.partials._footer')
     
 </x-app-layout>

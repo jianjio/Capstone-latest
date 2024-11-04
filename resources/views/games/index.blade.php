@@ -42,8 +42,8 @@
 <body class="bg-black font-poppins">
     <section class="hero text-center content-center">
         <div class="container mx-auto px-4">
-          <h1 class="text-9xl tracking-widest uppercase font-protest text-[#D1BDC6] mb-4">Games</h1>
-          <p class="text-2xl tracking-wide text-blue-500 uppercase mb-8">
+          <h1 class="md:text-9xl text-8xl tracking-widest uppercase font-protest text-[#D1BDC6] mb-4">Games</h1>
+          <p class="md:text-2xl text-xl tracking-wide text-blue-500 uppercase mb-8">
             Discover the Best Free-To-Play Games with Ease!
           </p>
         </div>

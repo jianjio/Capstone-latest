@@ -5,6 +5,8 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\GameController;
 use App\Http\Controllers\LibraryController;
 use App\Http\Controllers\CommentController;
+use App\Http\Controllers\ReplyController;
+use App\Http\Controllers\ReactionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,5 +47,4 @@ require __DIR__.'/auth.php';
 
 Route::get('/games', [GameController::class, 'index']);
 
-Route::get('/community', [CommentController::class, 'index'])->name('community.index');
-Route::post('/community/comments', [CommentController::class, 'store'])->name('community.comments.store');
+

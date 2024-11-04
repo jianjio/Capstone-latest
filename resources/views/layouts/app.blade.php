@@ -17,7 +17,7 @@
          <link rel="icon" href="{{ asset('logo-footer.png') }}" type="image/x-icon">
       </head>
     <body class="font-poppins antialiased bg-black">
-        <div class="bg-gray-100 dark:bg-gray-900">
+        <div class="">
             
             @include('layouts.navigation')
 

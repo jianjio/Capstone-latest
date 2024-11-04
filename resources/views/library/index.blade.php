@@ -40,8 +40,8 @@
 <body class="font-poppins bg-black">
     <section class="hero text-center content-center">
         <div class="container mx-auto px-4">
-          <h1 class="text-9xl tracking-widest uppercase font-protest text-[#D1BDC6] mb-4">library</h1>
-          <p class="text-2xl tracking-wide text-blue-500 uppercase mb-8">
+          <h1 class="md:text-9xl text-8xl tracking-widest uppercase font-protest text-[#D1BDC6] mb-4">library</h1>
+          <p class="md:text-2xl text-xl tracking-wide text-blue-500 uppercase mb-8">
             Discover the Best Free-To-Play Games with Ease!
           </p>
           
@@ -52,12 +52,15 @@
             </div>
             @endif
             
-            @if ($games->isEmpty())
-            <p class="text-center card text-xl">No games in your library.</p> <!-- Centered message -->
-            @else
+            
         </div>
     </div>
 </section>
+        @if ($games->isEmpty())
+        <div class="block mx-auto my-40 max-w-sm p-6 card rounded-lg shadow">
+        <p class="mb-2 text-2xl font-bold tracking-tight text-center text-[#D1BDC6]">No games added.</p>
+    </div> 
+        @else
 <div class="container mx-auto my-10">
     <h2 class="text-4xl font-bold text-center mb-4">YOUR GAMES</h2>
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">
